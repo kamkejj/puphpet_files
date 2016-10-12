@@ -1,3 +1,7 @@
+# Currently running into the error "[ERROR] The extension "curl" is missing."
+# This command is a work around
+apt-get install php5.6-curl
+
 # Run this in your terminal to get the latest project version:
 curl https://drupalconsole.com/installer -L -o drupal.phar
 
